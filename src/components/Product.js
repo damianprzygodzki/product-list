@@ -8,6 +8,8 @@ class Product extends Component {
     render() {
         const {data} = this.props;
         
+        if(!data) return false;
+        
         const productStyles = {
             marginBottom: '1rem'
         }
