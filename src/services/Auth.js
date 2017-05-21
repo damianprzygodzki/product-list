@@ -3,10 +3,6 @@ import qs from 'qs';
 import {config} from '../config';
 
 class Auth {
-    constructor() {
-        
-    }
-    
     loginRequest = (username, password) =>
         axios.post(config.apiUri + '/jwt', qs.stringify({username, password}));
         
