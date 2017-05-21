@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "node server.js",
-    "build": "node node_modules/webpack/bin/webpack.js --config webpack.config.js"
+    "build": "node node_modules/webpack/bin/webpack.js --config webpack.prod.js"
   },
   "author": "Damian Przygodzki",
   "license": "ISC",
